@@ -515,9 +515,9 @@
 
 
 
-let input = document.querySelector(".input")
-let addBtn = document.querySelector(".btn")
-let ulList = document.querySelector(".ulList")
+// let input = document.querySelector(".input")
+// let addBtn = document.querySelector(".btn")
+// let ulList = document.querySelector(".ulList")
 
 
 // const GetValue = () => {
@@ -609,20 +609,31 @@ let ulList = document.querySelector(".ulList")
 // }
 
 
-let arr = ['a','b','c','d','e','f','g']
-let vowels = "aeiouAEIOU"
-let vowelsArr = []
-let constant = []
+// let arr = ['a','b','c','d','e','f','g']
+// let vowels = "aeiouAEIOU"
+// let vowelsArr = []
+// let constant = []
 
-for(let v of arr) {
-    if(vowels.includes(v)){
-        vowelsArr.push(v)
-    } else {
-       constant.push(v)
-    }
-}
-console.log("vowelsArr :", vowelsArr.length);
-console.log("contants :", constant.length);
+// for(let v of arr) {
+//     if(vowels.includes(v)){
+//         vowelsArr.push(v)
+//     } else {
+//        constant.push(v)
+//     }
+// }
+// console.log("vowelsArr :", vowelsArr.length);
+// console.log("contants :", constant.length);
+
+
+// let user = Number(prompt("Enter Number"))
+// let sum = 0
+// for(let i = 0; i <= user; i++){
+// sum += i
+// }
+// console.log(sum);
+
+
+
 
 
 
