@@ -633,6 +633,111 @@
 // console.log(sum);
 
 
+// let arr = [2,3,24,5,1]
+// let a = arr[0]
+
+// for(let v of arr) {
+//     if(v < a){
+//        a = v
+//     }    
+// }
+// console.log(a);
+
+
+
+// const arr = ['a','b','c','d','e','i','o']
+// const vowels = 'aeiouAEIOU'
+// const vow = []
+// const con = []
+
+// for(let v of arr){
+//     if(vowels.includes(v)){
+//     vow.push(v)
+//     } else {
+//         con.push(v)
+//     }
+// }
+// console.log(vow)
+// console.log(con)
+
+
+// const arr = [1,1,2,3,4,5,6,5,4,3,2,1]
+// const data = [...new Set(arr.filter((item, index) => arr.indexOf(item) !== index))]
+// console.log(data)
+
+
+// const arr = [1,1,2,3,4,5,6,5,4,3,2,1]
+// const data = [...new Set(arr)]
+// console.log(data)
+
+
+// const arr = [[1,2],[2,5,3,5],[7,4,5]]
+// const v = arr.flat(Infinity)
+// const data = [...new Set(v)]
+// console.log(data);
+
+
+// const arr = ['uday', 'abhay', 'pawan']
+// const upper = [] 
+// for(let v of arr){
+//     upper.push(v.charAt(0).toUpperCase() + v.slice(1))
+// }
+// console.log(upper)
+
+
+// let computerNum = 5
+// let guess = null
+
+// while(guess !== computerNum){
+//   guess = Number(prompt("Enter Something"))
+//     if(guess > computerNum){
+//         console.log("Number is to high"); 
+//     } else if(guess < computerNum){
+//         console.log("Number is to low")
+//     } else {
+//         console.log("Congratulations")
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
