@@ -700,11 +700,15 @@
 
 // }
 
+let arr = [1,2,3,4,5]
+let l = arr[0]
 
-
-
-
-
+for(let v of arr){
+    if(l < v){
+        l = v
+    }
+}
+console.log(l);
 
 
 
